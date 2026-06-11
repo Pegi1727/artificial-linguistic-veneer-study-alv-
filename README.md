@@ -63,6 +63,12 @@ This plot illustrates the buffering effect of AI Agency on the relationship betw
 > **Interpretation:** The negative impact of Artificial Linguistic Veneer (ALV) on Oral Defense Performance (ODP) is significantly mitigated when perceived AI Agency is high (dashed line).
 
 ## Notes
+### Figure 2: Correlation Analysis
+The following scatter plot shows the strong negative correlation between ALV density and ODP scores.
+
+![Correlation Plot](figures/ALV_ODP_negative_correlation_scatter.png)
+
+**Key Finding:** There is a statistically significant negative correlation ($r = -0.74$), suggesting that higher reliance on ALV is associated with lower defense performance scores.
 
 This repository is intended to support transparency, reproducibility, and scholarly communication related to this research project.
 ### Figure 2: Correlation between ALV and Oral Defense Performance (ODP)
