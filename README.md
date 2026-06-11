@@ -15,6 +15,8 @@ This study examines how Artificial Linguistic Veneer (ALV) relates to Oral Defen
 - **Data files**
  ## 📂 Repository Contents
 
+## 📂 Repository Contents
+
 ### 📊 Data Files
 - **[ALV_AI_Agency_Simple_Slopes_CORRECTED.xlsx](ALV_AI_Agency_Simple_Slopes_CORRECTED.xlsx)**: The primary validated dataset ($N=50$) containing ALV scores, ODP scores, and AI Agency levels.
 
@@ -23,8 +25,9 @@ This study examines how Artificial Linguistic Veneer (ALV) relates to Oral Defen
 - **[ALV_ODP_negative_correlation_scatter.png](figures/ALV_ODP_negative_correlation_scatter.png)**: Visual analysis of the negative correlation between ALV and ODP.
 
 ### 🛠 Research Tools & Scripts
+- **[ALV_Research_Tools_Pegah_1781166703281.pdf](ALV_Research_Tools_Pegah_1781166703281.pdf)**: Comprehensive documentation of research instruments, rubrics, and protocols (Appendices A-F).
 - **[alv_research_tools.py](alv_research_tools.py)**: Python script for data processing and automated plot generation.
-- **[ALV_Research_Tools_Pegah.docx](ALV_Research_Tools_Pegah.docx)**: Documentation of research instruments, rubrics, and protocols.
+
 
 ## Research Focus
 
