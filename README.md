@@ -13,18 +13,18 @@ This study examines how Artificial Linguistic Veneer (ALV) relates to Oral Defen
 ## Repository Contents
 
 - **Data files**
-  - `ALV_AI_Agency_Simple_Slopes.xlsx`
-  - `ALV_AI_Agency_Simple_Slopes_CORRECTED.xlsx`
+ ## 📂 Repository Contents
 
-- **Figures**
-  - `ALV_AI_Agency_Simple_Slopes_300dpi.png`
-  - `ALV_AI_Agency_Simple_Slopes_300dpi.pdf`
-  - `ALV_ODP_negative_correlation_scatter.png`
-  - `ALV_ODP_negative_correlation_scatter.pdf`
+### 📊 Data Files
+- **[ALV_AI_Agency_Simple_Slopes_CORRECTED.xlsx](ALV_AI_Agency_Simple_Slopes_CORRECTED.xlsx)**: The primary validated dataset ($N=50$) containing ALV scores, ODP scores, and AI Agency levels.
 
-- **Research tools and supporting files**
-  - `ALV_Research_Tools_Pegah.docx`
-  - `alv_research_tools.py`
+### 📈 Figures
+- **[ALV_AI_Agency_Simple_Slopes_300dpi.png](figures/ALV_AI_Agency_Simple_Slopes_300dpi.png)**: Visual analysis of the moderation effect (Simple Slopes).
+- **[ALV_ODP_negative_correlation_scatter.png](figures/ALV_ODP_negative_correlation_scatter.png)**: Visual analysis of the negative correlation between ALV and ODP.
+
+### 🛠 Research Tools & Scripts
+- **[alv_research_tools.py](alv_research_tools.py)**: Python script for data processing and automated plot generation.
+- **[ALV_Research_Tools_Pegah.docx](ALV_Research_Tools_Pegah.docx)**: Documentation of research instruments, rubrics, and protocols.
 
 ## Research Focus
 
