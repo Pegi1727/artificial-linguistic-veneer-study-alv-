@@ -2,29 +2,57 @@
 Official implementation of the DIINA model for Afrikaans negation 
 # Artificial Linguistic Veneer (ALV) and AI Agency in Oral Defense Performance
 
-This repository serves as the official archive for the supplementary materials, statistical analysis, and data visualizations associated with the research study: **"The Impact of Artificial Linguistic Veneer and AI Agency on Oral Defense Performance."**
+# Artificial Linguistic Veneer (ALV) and AI Agency in Oral Defense Performance
+
+This repository provides the supplementary materials, statistical analyses, figures, and research tools associated with the study on the relationship between Artificial Linguistic Veneer (ALV), AI Agency, and Oral Defense Performance (ODP).
 
 ## Overview
-This study explores the relationship between the use of Artificial Linguistic Veneer (ALV) and AI Agency in academic settings, specifically focusing on how these factors influence Oral Defense Performance (ODP). The repository contains the data analysis pipeline, high-resolution figures, and supporting documentation used to derive the findings presented in the dissertation.
 
-## Repository Structure
-- `/data`: Contains the processed datasets used for the analysis.
-- `/scripts`: Python scripts used for data cleaning, statistical analysis, and generating the simple slopes and correlation plots.
-- `/figures`: High-resolution (300dpi) visuals including:
-    - `ALV_AI_Agency_Simple_Slopes_300dpi.png`: Interaction effect visualization.
-    - `ALV_ODP_negative_correlation_scatter.png`: Correlation matrix plots.
-- `/docs`: Appendices, rubric scales, and ethical statements.
+This study examines how Artificial Linguistic Veneer (ALV) relates to Oral Defense Performance (ODP), and whether AI Agency moderates this relationship. The repository includes analysis files, corrected statistical outputs, publication-quality figures, and supporting research materials.
+
+## Repository Contents
+
+- **Data files**
+  - `ALV_AI_Agency_Simple_Slopes.xlsx`
+  - `ALV_AI_Agency_Simple_Slopes_CORRECTED.xlsx`
+
+- **Figures**
+  - `ALV_AI_Agency_Simple_Slopes_300dpi.png`
+  - `ALV_AI_Agency_Simple_Slopes_300dpi.pdf`
+  - `ALV_ODP_negative_correlation_scatter.png`
+  - `ALV_ODP_negative_correlation_scatter.pdf`
+
+- **Research tools and supporting files**
+  - `ALV_Research_Tools_Pegah.docx`
+  - `alv_research_tools.py`
+
+## Research Focus
+
+The project investigates:
+
+- the negative association between ALV and oral defense performance,
+- the moderating role of AI Agency,
+- the buffering effect of AI Agency on the ALV–ODP relationship.
 
 ## Citation
-If you use this data or the provided scripts in your research, please cite the project as follows:
 
-**DOI:** [10.5281/zenodo.20612578](https://doi.org/10.5281/zenodo.20612578)
-```bibtex
-@misc{ALV_Research_2026,
-  author = {[Your Name]},
-  title = {Artificial Linguistic Veneer, AI Agency, and Oral Defense Performance Dataset},
-  year = {2026},
-  doi = {10.5281/zenodo.20612578},
-  url = {https://doi.org/10.5281/zenodo.20612578}
-}
+If you use materials from this repository, please cite the associated research as:
 
+**Merrikhi, P.** *Artificial Linguistic Veneer (ALV), AI Agency, and Oral Defense Performance.*
+
+> Formal citation details can be updated after journal submission, dissertation deposit, or repository archiving.
+
+## Author
+
+**Dr Pegah Merrikhi**  
+Email: deniz.qizi@gmail.com  
+Alternative Email: Pegah.merrrikhiii@gmail.com  
+WhatsApp: +989376269380
+
+## License
+
+License information will be added to this repository.
+
+## Notes
+
+This repository is intended to support transparency, reproducibility, and scholarly communication related to this research project.
