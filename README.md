@@ -88,4 +88,4 @@ Figure 2 presents a scatter plot with a fitted regression line demonstrating the
 
 ## 🎓 How to Cite
 If you use this dataset or tools in your research, please cite it as:
-> Mariki, P. (2026). Artificial Linguistic Veneer Study: AI Agency & Oral Descriptive Proficiency [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20639921
+> Merrikhi, P. (2026). Artificial Linguistic Veneer Study: AI Agency & Oral Descriptive Proficiency [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20639921
