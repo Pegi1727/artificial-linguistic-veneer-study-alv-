@@ -23,6 +23,14 @@ This study examines how Artificial Linguistic Veneer (ALV) relates to Oral Defen
 ### 📈 Figures
 - **[ALV_AI_Agency_Simple_Slopes_300dpi.png](figures/ALV_AI_Agency_Simple_Slopes_300dpi.png)**: Visual analysis of the moderation effect (Simple Slopes).
 - **[ALV_ODP_negative_correlation_scatter.png](figures/ALV_ODP_negative_correlation_scatter.png)**: Visual analysis of the negative correlation between ALV and ODP.
+### 📊 Empirical Evidence: The Veneer Gap (Figure 3)
+
+The scatterplot above (Figure 3) illustrates the core finding of this research. It demonstrates a **substantial negative correlation** ($r = -0.97, p < .001$) between the **Artificial Linguistic Veneer (ALV)**—the perceived sophistication of AI-assisted output—and the participants' actual **Oral Descriptive Proficiency (ODP)**.
+
+**Key Implications for Defense:**
+*   **Strong Inverse Relationship:** As the ALV score increases, there is a consistent and sharp decline in ODP scores across all 50 participants.
+*   **The "Veneer" Phenomenon:** This empirical data confirms that high-quality linguistic "veneer" often masks a significant lack of underlying conceptual mastery, which becomes evident during spontaneous oral defense.
+*   **Predictive Power:** The extremely low p-value ($2.01e^{-30}$) indicates that this relationship is not due to chance, but a structural discrepancy in AI-mediated academic tasks.
 
 ### 🛠 Research Tools & Scripts
 - **[ALV_Research_Tools_Pegah_1781166703281.pdf](ALV_Research_Tools_Pegah_1781166703281.pdf)**: Comprehensive documentation of research instruments, rubrics, and protocols (Appendices A-F).
