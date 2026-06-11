@@ -70,6 +70,7 @@ This plot illustrates the buffering effect of AI Agency on the relationship betw
 The following scatter plot shows the strong negative correlation between ALV density and ODP scores.
 
 ![Correlation Plot](figures/ALV_ODP_negative_correlation_scatter.png)
+![Figure 3: ALV vs ODP Correlation](figures/Figure3_ALV_ODP_scatter.png)
 
 **Key Finding:** There is a statistically significant negative correlation ($r = -0.74$), suggesting that higher reliance on ALV is associated with lower defense performance scores.
 
