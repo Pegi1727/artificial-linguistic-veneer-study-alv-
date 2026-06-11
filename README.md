@@ -65,3 +65,15 @@ This plot illustrates the buffering effect of AI Agency on the relationship betw
 ## Notes
 
 This repository is intended to support transparency, reproducibility, and scholarly communication related to this research project.
+### Figure 2: Correlation between ALV and Oral Defense Performance (ODP)
+
+**Caption:**
+Figure 2 presents a scatter plot with a fitted regression line demonstrating the relationship between students' Artificial Linguistic Veneer (ALV) total scores and their Oral Defense Performance (ODP) scores ($N = 50$). 
+
+*   **Correlation Coefficient ($r$):** $-0.81$
+*   **Significance Level ($p$):** $< .01$
+*   **Key Academic Finding:** 
+    There is a strong, statistically significant negative correlation between the two variables. This downward slope indicates that as the density of "Artificial Linguistic Veneer" (i.e., over-reliance on AI-generated linguistic polish and sophisticated vocabulary at the expense of genuine conceptual ownership) increases in the written work, the student's performance in the oral defense significantly decreases.
+*   **Theoretical Implication:** 
+    This finding highlights the "veneer gap." While AI tools can elevate the linguistic quality of a written thesis (high ALV), they do not translate to, and may even mask, a lack of deep conceptual understanding, which becomes painfully evident under the rigorous, unassisted environment of an oral defense (low ODP).
+
