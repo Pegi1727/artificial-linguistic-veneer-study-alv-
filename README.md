@@ -23,6 +23,8 @@ This study examines how Artificial Linguistic Veneer (ALV) relates to Oral Defen
 ### 📈 Figures
 - **[ALV_AI_Agency_Simple_Slopes_300dpi.png](figures/ALV_AI_Agency_Simple_Slopes_300dpi.png)**: Visual analysis of the moderation effect (Simple Slopes).
 - **[ALV_ODP_negative_correlation_scatter.png](figures/ALV_ODP_negative_correlation_scatter.png)**: Visual analysis of the negative correlation between ALV and ODP.
+- ![Figure 3: ALV vs ODP Correlation](figures/Figure3_ALV_ODP_scatter.png)
+
 ### 📊 Empirical Evidence: The Veneer Gap (Figure 3)
 
 The scatterplot above (Figure 3) illustrates the core finding of this research. It demonstrates a **substantial negative correlation** ($r = -0.97, p < .001$) between the **Artificial Linguistic Veneer (ALV)**—the perceived sophistication of AI-assisted output—and the participants' actual **Oral Descriptive Proficiency (ODP)**.
