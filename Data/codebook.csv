@@ -1,0 +1,23 @@
+Variable,Label,Type,Notes
+id,Participant ID,Numeric,Unique participant identifier
+gender,Gender,Categorical,"1=Male, 2=Female, 3=Other/Prefer not to say"
+age,Age,Numeric,Age in years
+major,Major/Program,Categorical,Academic program or field
+english_level,English proficiency level,Categorical,Self-reported or tested proficiency level
+alv1,ALV Item 1,Likert,Artificial Linguistic Veneer scale item
+alv2,ALV Item 2,Likert,Artificial Linguistic Veneer scale item
+alv3,ALV Item 3,Likert,Artificial Linguistic Veneer scale item
+alv4,ALV Item 4,Likert,Artificial Linguistic Veneer scale item
+alv5,ALV Item 5,Likert,Artificial Linguistic Veneer scale item
+aia1,AI Agency Item 1,Likert,AI Agency scale item
+aia2,AI Agency Item 2,Likert,AI Agency scale item
+aia3,AI Agency Item 3,Likert,AI Agency scale item
+aia4,AI Agency Item 4,Likert,AI Agency scale item
+aia5,AI Agency Item 5,Likert,AI Agency scale item
+odp1,ODP Criterion 1,Rubric,Oral Defense Performance rubric criterion
+odp2,ODP Criterion 2,Rubric,Oral Defense Performance rubric criterion
+odp3,ODP Criterion 3,Rubric,Oral Defense Performance rubric criterion
+odp4,ODP Criterion 4,Rubric,Oral Defense Performance rubric criterion
+odp_total,Oral Defense Performance total,Numeric,Composite score
+alv_total,ALV total score,Numeric,Composite score
+aia_total,AI Agency total score,Numeric,Composite score
