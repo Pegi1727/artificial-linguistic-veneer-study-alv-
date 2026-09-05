@@ -3,7 +3,7 @@
 
 
 ## 📊 Research Visuals & Empirical Results
-
+![ga](figures/ga.png)
 ### 1. Data Cleaning & Diagnostics
 ![3.1](figures/3.1.png) ![3.2](figures/3.2.png) ![3.3](figures/3.3.png)
 
