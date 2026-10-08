@@ -1,0 +1,82 @@
+{
+  "input": "reconstructed_raw_data_50.csv",
+  "n": 50,
+  "data_status": "Computationally reconstructed; not observed participant data.",
+  "means": {
+    "ALV": 3.4104,
+    "AI_Agency": 3.1771999999999996,
+    "ODP": 2.9524
+  },
+  "sample_sd": {
+    "ALV": 0.7404547968123707,
+    "AI_Agency": 0.7829484826798072,
+    "ODP": 0.6968926951629129
+  },
+  "pearson_correlations": {
+    "ALV": {
+      "ALV": 1.0,
+      "AI_Agency": -0.2764388975731976,
+      "ODP": -0.5435208389612148
+    },
+    "AI_Agency": {
+      "ALV": -0.2764388975731976,
+      "AI_Agency": 1.0,
+      "ODP": 0.45440870228821223
+    },
+    "ODP": {
+      "ALV": -0.5435208389612148,
+      "AI_Agency": 0.45440870228821223,
+      "ODP": 1.0
+    }
+  },
+  "model_3": {
+    "formula": "ODP ~ ALV_centered + AI_Agency_centered + ALV_centered*AI_Agency_centered",
+    "coefficients": {
+      "const": 3.0051943214709556,
+      "ALV": -0.5978560592407922,
+      "AI_Agency": 0.46074946372408465,
+      "ALV_x_AI_Agency": 0.33614777952392816
+    },
+    "R2": 0.5486839415872962,
+    "adjusted_R2": 0.519250285603859
+  },
+  "simple_slopes": [
+    {
+      "AI_Agency_level": "Low (-1 SD)",
+      "AI_Agency_centered_value": -0.7829484826798071,
+      "AI_Agency_raw_value": 2.3942515173201926,
+      "Slope_ALV_to_ODP": -0.8610424531752381,
+      "SE": 0.14678543170450642,
+      "t": -5.865993942154979,
+      "p": 4.5967126241906014e-07
+    },
+    {
+      "AI_Agency_level": "Mean",
+      "AI_Agency_centered_value": 0.0,
+      "AI_Agency_raw_value": 3.1771999999999996,
+      "Slope_ALV_to_ODP": -0.5978560592407922,
+      "SE": 0.10632747547741625,
+      "t": -5.622780533031424,
+      "p": 1.0604618658078404e-06
+    },
+    {
+      "AI_Agency_level": "High (+1 SD)",
+      "AI_Agency_centered_value": 0.7829484826798071,
+      "AI_Agency_raw_value": 3.9601484826798066,
+      "Slope_ALV_to_ODP": -0.33466966530634634,
+      "SE": 0.09971341060516804,
+      "t": -3.3563154973359297,
+      "p": 0.0015918264462118016
+    }
+  ],
+  "outputs": [
+    "correlation_matrix.csv",
+    "correlation_pvalues.csv",
+    "descriptive_statistics.csv",
+    "regression_model1_results.csv",
+    "regression_model2_results.csv",
+    "regression_model3_results.csv",
+    "simple_slopes.csv"
+  ],
+  "note": "Conventional OLS results describe this reconstructed file only; not evidence about real participants."
+}
