@@ -1,0 +1,5 @@
+df <- read.csv("reconstructed_raw_data_50.csv")
+m3 <- lm(ODP ~ ALV + AI_Agency + I(scale(ALV, scale=F) * scale(AI_Agency, scale=F)), data = df)
+cat("Cook's distance max: ", max(cooks.distance(m3)), "\n")
+cat("Residual normality test (Shapiro):\n")
+print(shapiro.test(residuals(m3)))
