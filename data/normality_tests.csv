@@ -1,0 +1,5 @@
+Variable,Test,Statistic,p,Skewness,Kurtosis,Decision
+ALV,Shapiro-Wilk,0.7628035,1e-07,-0.8684679,0.3324187,Not met (p ≤ .05)
+AI_Agency,Shapiro-Wilk,0.7706793,2e-07,0.6399825,0.313641,Not met (p ≤ .05)
+ODP,Shapiro-Wilk,0.7893309,5e-07,0.1301644,0.464358,Not met (p ≤ .05)
+Regression residuals,Shapiro-Wilk,0.5449176,0.0,-1.6882367,12.5152596,Not met (p ≤ .05)

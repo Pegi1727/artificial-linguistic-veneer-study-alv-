@@ -1,0 +1,8 @@
+Assumption,Method,Evidence,Decision
+Residual normality,Shapiro–Wilk,"W=0.5449, p=0.0000",Not met
+Linearity,Scatterplots + residual inspection,Visual review; see figures,Met (visual)
+Homoscedasticity,Breusch–Pagan,"LM=34.0537, p=0.0000",Not met
+Error independence,Durbin–Watson,1.8555,Met
+Multicollinearity,VIF,Max VIF=1.5740,Met
+Influential cases,"Studentized residual, Cook D, leverage",max |studentized residual|=18.151; max Cook D=7.237,Review flagged cases
+Missingness,Case screening,0 missing values; N=50,Met

@@ -1,0 +1,8 @@
+Variable,Label,Type,Notes
+participant_id,Participant ID,Integer,Unique identifier (1–50)
+ALV,Artificial Linguistic Veneer,Numeric (1–5),ALV rubric mean score; higher = greater AI-mediated linguistic polish
+AI_Agency,AI Agency,Numeric (1–5),AI Agency Scale mean score; higher = strategic/critical AI use
+ODP,Oral Defense Performance,Numeric (1–5),Oral Defense Protocol mean score; higher = stronger conceptual ownership
+alv1–alv5,ALV items,Likert (1–5),Computationally Reconstructed item-level scores consistent with reported totals
+aia1–aia5,AI Agency items,Likert (1–5),Computationally Reconstructed item-level scores consistent with reported totals
+odp1–odp4,ODP items,Likert (1–5),Computationally Reconstructed item-level scores consistent with reported totals

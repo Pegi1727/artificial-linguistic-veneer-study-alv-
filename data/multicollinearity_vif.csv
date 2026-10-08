@@ -1,0 +1,4 @@
+Predictor,VIF,Tolerance
+ALV (centered),1.30087,0.76872
+AI_Agency (centered),1.31438,0.76081
+ALV × AI_Agency,1.57404,0.63531
