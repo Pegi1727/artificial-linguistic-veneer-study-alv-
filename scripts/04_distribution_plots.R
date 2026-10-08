@@ -1,0 +1,8 @@
+df <- read.csv("reconstructed_raw_data_50.csv")
+png("script_outputs/distributions.png", width = 1200, height = 400)
+par(mfrow = c(1, 3))
+hist(df$ALV, main = "ALV Distribution", col = "skyblue", xlab = "ALV")
+hist(df$AI_Agency, main = "AI Agency Distribution", col = "lightgreen", xlab = "AI Agency")
+hist(df$ODP, main = "ODP Distribution", col = "salmon", xlab = "ODP")
+dev.off()
+cat("Distribution plots saved to script_outputs/distributions.png\n")
