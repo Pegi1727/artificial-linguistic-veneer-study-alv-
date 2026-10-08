@@ -1,0 +1,5 @@
+df <- read.csv("reconstructed_raw_data_50.csv")
+vars <- c("ALV", "AI_Agency", "ODP")
+cormat <- cor(df[vars])
+print(round(cormat, 4))
+write.csv(cormat, "script_outputs/correlation_matrix.csv")
