@@ -1,0 +1,6 @@
+df <- read.csv("reconstructed_raw_data_50.csv")
+vars <- c("ALV", "AI_Agency", "ODP")
+z_scores <- scale(df[vars])
+outliers <- which(abs(z_scores) > 3, arr.ind = TRUE)
+cat("Outliers (|z| > 3):\n")
+if (nrow(outliers) == 0) cat("No univariate outliers detected.\n") else print(outliers)
