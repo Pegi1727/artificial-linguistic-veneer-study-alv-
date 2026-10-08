@@ -1,0 +1,6 @@
+df <- read.csv("reconstructed_raw_data_50.csv")
+cat("=== 02 DATA QUALITY AUDIT ===\n")
+cat("Unique IDs: ", length(unique(df$participant_id)), "\n")
+cat("Duplicated rows: ", sum(duplicated(df)), "\n")
+cat("Value ranges:\n")
+apply(df[, c("ALV", "AI_Agency", "ODP")], 2, function(x) c(min = min(x), max = max(x)))
