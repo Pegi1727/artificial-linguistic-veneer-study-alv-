@@ -1,0 +1,8 @@
+df <- read.csv("reconstructed_raw_data_50.csv")
+png("script_outputs/scatterplots.png", width = 1200, height = 400)
+par(mfrow = c(1, 2))
+plot(df$ALV, df$ODP, pch = 19, col = "darkblue", main = "ALV vs ODP", xlab = "ALV", ylab = "ODP")
+abline(lm(ODP ~ ALV, data = df), col = "red", lwd = 2)
+plot(df$AI_Agency, df$ODP, pch = 19, col = "darkgreen", main = "AI Agency vs ODP", xlab = "AI Agency", ylab = "ODP")
+abline(lm(ODP ~ AI_Agency, data = df), col = "red", lwd = 2)
+dev.off()
