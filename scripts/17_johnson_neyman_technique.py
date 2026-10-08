@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+"""Standalone ALV research analysis; accepts a CSV or generates reproducible demo data."""
+import argparse, os, sys, warnings
+import numpy as np, pandas as pd
+from scipy import stats
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+warnings.filterwarnings("ignore", category=RuntimeWarning)
+def get_data(path):
+    if path:
+        df=pd.read_csv(path)
+    else:
+        rng=np.random.default_rng(2026); n=180
+        x=rng.normal(size=n); w=rng.normal(size=n); e=rng.normal(scale=.8,size=n)
+        df=pd.DataFrame({"ALV":x,"AI_Agency":w,"ODP":1.2+.45*x+.30*w+.25*x*w+e,
+                         "age":rng.integers(18,45,n),"gender":rng.choice([1,2,3],n)})
+        for col in ["ALV","AI_Agency","ODP"]: df[col]=np.round(df[col],3)
+    return df
+def out(name, df):
+    path=os.path.join(OUT,name); df.to_csv(path,index=False); print("Saved:",path)
+def model_data(df, cols=("ALV","AI_Agency","ODP")):
+    missing=[c for c in cols if c not in df]
+    if missing: raise ValueError("Required columns missing: "+", ".join(missing))
+    return df[list(cols)].apply(pd.to_numeric,errors="coerce").dropna()
+def main():
+    global OUT
+    ap=argparse.ArgumentParser(description=__doc__); ap.add_argument("--input",help="CSV input; defaults to generated demo dataset")
+    ap.add_argument("--outdir",default="analysis_output",help="Output directory")
+    a=ap.parse_args(); OUT=a.outdir; os.makedirs(OUT,exist_ok=True); df=get_data(a.input)
+    print(f"Rows={len(df)}; columns={list(df.columns)}")
+    """Topic 17: johnson_neyman_technique."""
+    # Johnson-Neyman interval: solve t(w)^2 = critical_t^2 for moderator values.
+    d=model_data(df); m=smf.ols("ODP ~ ALV * AI_Agency",data=d).fit(); b=m.params; cov=m.cov_params(); tcrit=stats.t.ppf(.975,m.df_resid); v0=cov.loc["ALV","ALV"]; v1=cov.loc["ALV:AI_Agency","ALV:AI_Agency"]; cv=cov.loc["ALV","ALV:AI_Agency"]; bi=b["ALV"]; bix=b["ALV:AI_Agency"]
+    roots=np.roots([bix*bix-tcrit*tcrit*v1,2*bi*bix-2*tcrit*tcrit*cv,bi*bi-tcrit*tcrit*v0]); real=sorted([float(r.real) for r in roots if abs(r.imag)<1e-8]); out("johnson_neyman.csv",pd.DataFrame({"boundary_moderator_value":real})); print("Observed moderator range:",float(d.AI_Agency.min()),float(d.AI_Agency.max()),"; roots:",real)
+
+if __name__=="__main__": main()
